@@ -27,7 +27,6 @@ namespace GettingArrayElementIndex
 
         public static int GetIndexOf(this ushort[] arrayToSearch, ushort value, int startIndex, int count)
         {
-
             if (arrayToSearch is null)
             {
                 throw new ArgumentNullException(nameof(arrayToSearch));
